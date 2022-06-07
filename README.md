@@ -30,7 +30,7 @@ Neste projeto, você vai desenvolver uma página de formulário da Escola de Mag
   <summary><strong>🗓 Data de Entrega</strong></summary><br />
 
   * Este projeto é em equipe
-  * São `X` dias de projeto
+  * São 1 dia de projeto
   * Data para entrega final do projeto: `21/06/2022 14:10`
 
 </details>
@@ -40,7 +40,7 @@ Neste projeto, você vai desenvolver uma página de formulário da Escola de Mag
 <details>
   <summary><strong>‼ Antes de começar a desenvolver</strong></summary><br />
 
-⚠️ **Esse projeto tem um fluxo um pouco diferente dos outros. Os passos 1 a 6 devem ser feitos por uma pessoa da equipe (a que vai criar a branch de trabalho). As outras pessoas devem fazer apenas o passo 1 (clonar o projeto) e depois mudar para a branch criada pela primeira pessoa, utilizando o comando:**
+⚠️ **Esse projeto tem um fluxo um pouco diferente dos outros. Os passos 1 a 6 devem ser feitos por uma pessoa da equipe (a que vai criar a branch de trabalho). As outras pessoas devem fazer apenas o passo 1 e 2 (clonar o projeto) e depois mudar para a branch criada pela primeira pessoa, utilizando utilizando o comando:**
 
 ```bash
 git checkout joao-silva-trybewarts
