@@ -19,10 +19,31 @@
     </header>
     
     <main id="main">
-        <form id="evaluation-form">
-            <input type="name" id="input-name" placeholder="Nome">
-            <input type="text" id="input-lastname" placeholder="Sobrenome">
-            <input type="email" id="input-email" placeholder="Email">
+        <form id="evaluation-form" class="row">
+            <div>
+                <input type="name" class="column especial" id="input-name" placeholder="Nome">
+                <input type="text" class="column especial" id="input-lastname" placeholder="Sobrenome">
+            </div>
+            <div>
+                <input type="email" class="column especial" id="input-email" placeholder="Email">
+                <select id="house" class="column especial">
+                    <option value="Gitnória" id="gitnoria-house">Gitnória</option>
+                    <option value="Reactpuff" id="reactpuff-house">Reactpuff</option>
+                    <option value="Corvinode" id="corvinode-house">Corvinode</option>
+                    <option value="Pytherina" id="pytherina-house">Pytherina</option>
+                </select>
+            </div>
+            <hr>
+            <div class="radio-family">
+                <label id="label-family">Qual sua família?</label>
+                <label for="Frontend">Frontend</label>
+                <input type="radio" name="family" value="Frontend" id="Frontend">
+                <label for="Backend">Backend</label>
+                <input type="radio" name="family" value="Backend" id="Backend">
+                <label for="FullStack">FullStack</label>
+                <input type="radio" name="family" value="FullStack" id="FullStack">
+            </div>
+            <hr>
         </form>
         <img src="images/trybewarts-colored.svg" id="trybewarts-forms-logo">
 
