@@ -1,0 +1,43 @@
+/* <tag> */
+#evaluation-form input{
+    width: 125px;
+    float: left;
+}
+
+/* .class */
+.trybewarts-header-logo{
+    width: 70px;
+}
+
+.header{
+    background-color: rgb(50, 167, 145);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* #id */
+
+#evaluation-form{
+    display: flex;
+    width: 675px;
+    flex-direction: column;
+}
+
+#main{
+    display: flex;
+}
+
+#trybewarts-header-title{
+    display: flex;
+    align-self: center;
+}
+
+#trybewarts-forms-logo{
+    height: 500px;
+    width: 50%;
+    border: 1px solid black;
+    float: right;
+}
+
