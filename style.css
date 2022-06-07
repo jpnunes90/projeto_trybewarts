@@ -1,7 +1,19 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
 /* <tag> */
 #evaluation-form .especial{
     width: 125px;
     float: left;
+}
+
+footer{
+    background-color: rgb(50, 167, 145);
+    padding: 15px;
+    margin-top: 15px;
+    text-align: center;
 }
 
 /* .class */
@@ -21,6 +33,10 @@
     flex-direction: column;
 }
 
+.checkboxes{
+    display: flex;
+    flex-direction: column;
+}
 
 /* #id */
 
