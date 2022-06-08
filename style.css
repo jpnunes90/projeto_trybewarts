@@ -51,6 +51,10 @@ footer {
   float: left;
 }
 
+.trybewarts-login{
+  display: flex;
+}
+
 /* #id */
 #evaluation-form {
   display: flex;
