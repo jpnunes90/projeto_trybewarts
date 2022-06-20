@@ -7,7 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Trybewarts</title>
   <link rel="stylesheet" href="style.css">
-</head>
+  </head>
 
 <body>
 
@@ -15,8 +15,8 @@
     <img class="trybewarts-header-logo" src="images/trybewarts-header-logo.svg" alt="Logo Trybewarts">
     <h1 id="trybewarts-header-title">Trybewarts</h1>
     <form class="trybewarts-login">
-      <input type="email" name="email" placeholder="Email" id="email">
-      <input type="password" name="password" placeholder="Senha" id="password">
+      <input type="email" name="email" placeholder="Email" id="email" class="login">
+      <input type="password" name="password" placeholder="Senha" id="password" class="login">
       <button id="login">Entrar</button>
     </form>
   </header>
@@ -40,27 +40,27 @@
       <div class="row">
         <div class="radio-family column">
           <label id="label-family">Qual sua família?</label>
-          <label for="Frontend">Frontend</label>
-          <input type="radio" name="family" value="Frontend" id="Frontend">
-          <label for="Backend">Backend</label>
+          <input class="form-check-input" type="radio" name="family" value="Frontend" id="Frontend">
+          <label class="form-check-label" for="Frontend">Frontend</label>
           <input type="radio" name="family" value="Backend" id="Backend">
-          <label for="FullStack">FullStack</label>
+          <label for="Backend">Backend</label>
           <input type="radio" name="family" value="FullStack" id="FullStack">
+          <label for="FullStack">FullStack</label>
         </div>
         <div class="checkboxes column">
           <label id="label-content">Qual conteúdo você está com mais vontade de aprender?</label>
-          <label for="HoFs">HoFs</label>
           <input type="checkbox" class="subject" value="HoFs" id="HoFs">
-          <label for="Jest">Jest</label>
+          <label for="HoFs">HoFs</label>
           <input type="checkbox" class="subject" value="Jest">
-          <label for="Promises">Promises</label>
+          <label for="Jest">Jest</label>
           <input type="checkbox" class="subject" value="Promises">
-          <label for="React">React</label>
+          <label for="Promises">Promises</label>
           <input type="checkbox" class="subject" value="React">
-          <label for="SQL">SQL</label>
+          <label for="React">React</label>
           <input type="checkbox" class="subject" value="SQL">
-          <label for="Python">Python</label>
+          <label for="SQL">SQL</label>
           <input type="checkbox" class="subject" value="Python">
+          <label for="Python">Python</label>
         </div>
       </div>
       <hr>
