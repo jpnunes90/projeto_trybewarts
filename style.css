@@ -67,7 +67,7 @@ footer {
   justify-content: space-between;
 }
 
-.login{
+.login {
   width: 150px;
   height: 25px;
   border-radius: 5px;
@@ -81,7 +81,6 @@ footer {
   width: 675px;
   flex-direction: column;
   border: 1px solid black;
-
 }
 
 #main {
@@ -101,7 +100,7 @@ footer {
   float: right;
 }
 
-#login{
+#login {
   width: 70px;
   height: 25px;
   border-radius: 5px;
@@ -109,7 +108,7 @@ footer {
   background: rgb(81, 27, 151);
   color: white;
 }
-#login:hover{
+#login:hover {
   background: rgb(27, 17, 161);
   cursor: pointer;
 }
