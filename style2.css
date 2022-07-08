@@ -2,6 +2,9 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  /* font-family: 'Playball', cursive; */
+  font-family: 'Redressed', cursive;
+  font-size: 18px;
 }
 
 /* <tag> */
@@ -40,7 +43,7 @@ main {
 
 .login {
   width: 150px;
-  height: 25px;
+  height: 30px;
   border-radius: 5px;
   align-self: center;
   margin-right: 10px;
@@ -53,7 +56,6 @@ main {
   align-self: center;
   margin-right: 10px;
   font-size: 18px;
-  margin-top: 10px;
 }
 
 .margin-form {
@@ -80,13 +82,29 @@ main {
   float: right;
 }
 
+.radio-family {
+  width: 25%;
+}
+
+.borda {
+  border: 1px solid black;
+}
+
+.margin-top {
+  margin-top: 10px;
+}
+
+.center {
+  text-align: center;
+}
+
 /* #id */
 
 #trybewarts-header-title {
   display: flex;
   color: white;
   align-self: center;
-  font-size: 50px;
+  font-size: 65px;
 }
 
 #login {
@@ -104,10 +122,9 @@ main {
 }
 
 #submit-btn {
-  width: 70px;
-  height: 25px;
-  border-radius: 5px;
   width: 600px;
+  height: 30px;
+  border-radius: 5px;
   margin-top: 10px;
 }
 
@@ -115,6 +132,7 @@ main {
   max-width: 40%;
   height: auto;
   float: right;
+  margin-right: 50px;
 }
 
 #body {
@@ -127,5 +145,10 @@ main {
 }
 
 #coment-area {
+  width: 600px;
+}
+
+#text-area {
+  height: 125px;
   width: 600px;
 }
