@@ -27,7 +27,7 @@ footer {
   display: flex;
   justify-content: space-between;
   width: 100%;
-  position: absolute;
+  /* position: absolute; */
   top: 0;
   left: 0;
   padding: 5px 10px;
@@ -48,6 +48,7 @@ footer {
   float: left;
   width: 50%;
   padding: 10px;
+  
 }
 
 .row:after {
@@ -84,7 +85,13 @@ footer {
 }
 
 #main {
+  /* min-height: 100vh; */
+  /* color: white; */
+  /* text-align: center; */
   display: flex;
+  /* flex-direction: column; */
+  /* justify-content: center; */
+  /* align-items: center; */
 }
 
 #trybewarts-header-title {
@@ -95,7 +102,8 @@ footer {
 }
 
 #trybewarts-forms-logo {
-  height: 500px;
+  max-width: 40%;
+  height: auto;
   border: 1px solid black;
   float: right;
 }
@@ -111,4 +119,9 @@ footer {
 #login:hover {
   background: rgb(27, 17, 161);
   cursor: pointer;
+}
+#submit-btn {
+  width: 70px;
+  height: 25px;
+  border-radius: 5px;
 }

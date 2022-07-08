@@ -1,9 +1,11 @@
 function habilitar() {
   if (document.getElementById('agreement').checked) {
     document.getElementById('submit-btn').disabled = false;
+    document.getElementById('submit-btn').style.backgroundColor = rgb(27, 17, 161);
   } else {
     document.getElementById('submit-btn').disabled = true;
   }
+
 }
 
 const btn = document.querySelector('#login');

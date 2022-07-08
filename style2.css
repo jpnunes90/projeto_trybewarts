@@ -1,0 +1,119 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* <tag> */
+footer {
+  background-color: rgb(50, 167, 145);
+  padding: 15px;
+  margin-top: 15px;
+  text-align: center;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  align-items: center;
+  position: absolute;
+}
+
+/* .class */
+
+.header {
+  background-color: rgb(50, 167, 145);
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  top: 0;
+  left: 0;
+  padding: 5px 10px;
+  align-items: center;
+}
+
+.trybewarts-header-logo {
+  width: 70px;  
+}
+
+.login {
+  width: 150px;
+  height: 25px;
+  border-radius: 5px;
+  align-self: center;
+  margin-right: 10px;
+}
+
+.form{
+  width: 250px;
+  height: 30px;
+  border-radius: 5px;
+  align-self: center;
+  margin-right: 10px;
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+.margin-form {
+  margin-right: 45px;
+}
+
+.row:after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px; 
+}
+
+/* #id */
+
+#trybewarts-header-title {
+  display: flex;
+  color: white;
+  align-self: center;
+  font-size: 50px;
+}
+
+#login{
+  width: 70px;
+  height: 25px;
+  border-radius: 5px;
+  align-self: center;
+  background: rgb(81, 27, 151);
+  color: white;
+}
+
+#login:hover{
+  background: rgb(27, 17, 161);
+  cursor: pointer;
+}
+
+#submit-btn {
+  width: 70px;
+  height: 25px;
+  border-radius: 5px;
+  width: 600px;
+  margin-top: 10px;
+}
+
+#trybewarts-forms-logo {
+  max-width: 40%;
+  height: auto;
+  float: right;
+}
+
+#body {
+  display: inline-block;
+}
+
+#form1 {
+  display: inline-block;
+  justify-content: space-between;
+}
+
+#coment-area {
+  width: 600px;
+}
