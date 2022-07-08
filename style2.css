@@ -17,6 +17,10 @@ footer {
   position: absolute;
 }
 
+main {
+  justify-content: space-between;
+}
+
 /* .class */
 
 .header {
@@ -31,7 +35,7 @@ footer {
 }
 
 .trybewarts-header-logo {
-  width: 70px;  
+  width: 70px;
 }
 
 .login {
@@ -42,7 +46,7 @@ footer {
   margin-right: 10px;
 }
 
-.form{
+.form {
   width: 250px;
   height: 30px;
   border-radius: 5px;
@@ -62,10 +66,18 @@ footer {
   clear: both;
 }
 
+.row {
+  /* border: 1px solid black; */
+}
+
 .column {
   float: left;
   width: 50%;
-  padding: 10px; 
+  padding: 10px;
+}
+
+.checkboxes {
+  float: right;
 }
 
 /* #id */
@@ -77,7 +89,7 @@ footer {
   font-size: 50px;
 }
 
-#login{
+#login {
   width: 70px;
   height: 25px;
   border-radius: 5px;
@@ -86,7 +98,7 @@ footer {
   color: white;
 }
 
-#login:hover{
+#login:hover {
   background: rgb(27, 17, 161);
   cursor: pointer;
 }
