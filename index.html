@@ -45,7 +45,7 @@
       </section>
       <section class="row">
         <div class="radio-family column margin-top">
-          <label id="label-family">Qual sua família?</label><br><br>
+          <label id="label-family">Qual sua família?</label><br>
           <input class="form-check-input" type="radio" name="family" value="Frontend" id="Frontend">
           <label class="form-check-label" for="Frontend">Frontend</label><br>
           <input type="radio" name="family" value="Backend" id="Backend">
@@ -54,19 +54,25 @@
           <label for="FullStack">FullStack</label><br>
         </div>
         <div class="checkboxes columns margin-top">
-          <label id="label-content">Qual conteúdo você está com mais vontade de aprender?</label><br><br>
-          <input type="checkbox" class="subject" value="HoFs" id="HoFs">
-          <label for="HoFs">HoFs</label><br>
-          <input type="checkbox" class="subject" value="Jest">
-          <label for="Jest">Jest</label><br>
-          <input type="checkbox" class="subject" value="Promises">
-          <label for="Promises">Promises</label><br>
-          <input type="checkbox" class="subject" value="React">
-          <label for="React">React</label><br>
-          <input type="checkbox" class="subject" value="SQL">
-          <label for="SQL">SQL</label><br>
-          <input type="checkbox" class="subject" value="Python">
-          <label for="Python">Python</label>
+          <label id="label-content">Qual conteúdo você está com mais vontade de aprender?</label><br>
+          <div id="check">
+            <div id="check1">
+              <input type="checkbox" class="subject" value="HoFs" id="HoFs">
+              <label for="HoFs">HoFs</label><br>
+              <input type="checkbox" class="subject" value="Jest">
+              <label for="Jest">Jest</label><br>
+              <input type="checkbox" class="subject" value="Promises">
+              <label for="Promises">Promises</label><br>
+            </div>
+            <div id="check2">
+              <input type="checkbox" class="subject" value="React">
+              <label for="React">React</label><br>
+              <input type="checkbox" class="subject" value="SQL">
+              <label for="SQL">SQL</label><br>
+              <input type="checkbox" class="subject" value="Python">
+              <label for="Python">Python</label>
+            </div>
+          </div>
         </div>
       </section>
       <section class="margin-top">
@@ -95,7 +101,8 @@
       <section id="comment" class="margin-top">
         <div>
           <label for="" class="textarea">Deixe seu comentário:</label><br>
-          <textarea id="text-area" class="margin-top" name="" maxlength="500" id="coment-area" cols="30" rows="5"></textarea>
+          <textarea id="text-area" class="margin-top" name="" maxlength="500" id="coment-area" cols="30"
+            rows="5"></textarea>
         </div>
         <div>
           <label for="" id="label-infos">Você concorda com o uso das informações acima?</label>

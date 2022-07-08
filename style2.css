@@ -17,6 +17,7 @@ footer {
   bottom: 0;
   left: 0;
   align-items: center;
+  position: absolute;
 }
 
 main {
@@ -71,10 +72,6 @@ body {
   clear: both;
 }
 
-.row {
-  /* border: 1px solid black; */
-}
-
 .column {
   float: left;
   width: 50%;
@@ -86,7 +83,7 @@ body {
 }
 
 .radio-family {
-  width: 25%;
+  width: 30%;
 }
 
 .borda {
@@ -132,7 +129,7 @@ body {
 }
 
 #trybewarts-forms-logo {
-  max-width: 40%;
+  max-width: 38%;
   height: auto;
   float: right;
   margin-right: 50px;
@@ -154,4 +151,21 @@ body {
 #text-area {
   height: 125px;
   width: 600px;
+}
+
+#check1 {
+    display: inline-block;
+    padding: 1vw 0vw 1vw 0vw;
+  }
+
+#check2 {
+  display: inline-block;
+  margin-right: 0vw;
+  margin-left: 15px;
+  padding: 1vw 0vw 1vw 0vw;
+  float:right;
+}
+
+#check {
+  display: inline-block;
 }
