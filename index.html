@@ -59,17 +59,17 @@
             <div id="check1">
               <input type="checkbox" class="subject" value="HoFs" id="HoFs">
               <label for="HoFs">HoFs</label><br>
-              <input type="checkbox" class="subject" value="Jest">
+              <input type="checkbox" class="subject" value="Jest" id="Jest">
               <label for="Jest">Jest</label><br>
-              <input type="checkbox" class="subject" value="Promises">
+              <input type="checkbox" class="subject" value="Promises" id="Promises">
               <label for="Promises">Promises</label><br>
             </div>
             <div id="check2">
-              <input type="checkbox" class="subject" value="React">
+              <input type="checkbox" class="subject" value="React" id="React">
               <label for="React">React</label><br>
-              <input type="checkbox" class="subject" value="SQL">
+              <input type="checkbox" class="subject" value="SQL" id="SQL">
               <label for="SQL">SQL</label><br>
-              <input type="checkbox" class="subject" value="Python">
+              <input type="checkbox" class="subject" value="Python" id="Python">
               <label for="Python">Python</label>
             </div>
           </div>
@@ -101,8 +101,8 @@
       <section id="comment" class="margin-top">
         <div>
           <label for="" class="textarea">Deixe seu comentário:</label><br>
-          <textarea id="text-area" class="margin-top" name="" maxlength="500" id="coment-area" cols="30"
-            rows="5"></textarea>
+          <textarea id="text-area" class="margin-top" name="" maxlength="500" id="coment-area" cols="30" rows="5" onkeypress="cont(this)"></textarea>
+        <label id="contCharacter"></label>
         </div>
         <div>
           <label for="" id="label-infos">Você concorda com o uso das informações acima?</label>

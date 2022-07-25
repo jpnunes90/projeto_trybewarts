@@ -1,1 +1,0 @@
-Projeto para demonstrar os conhecimentos adquiridos em aula

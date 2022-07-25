@@ -1,7 +1,6 @@
 function habilitar() {
   if (document.getElementById('agreement').checked) {
     document.getElementById('submit-btn').disabled = false;
-    document.getElementById('submit-btn').style.backgroundColor = rgb(27, 17, 161);
   } else {
     document.getElementById('submit-btn').disabled = true;
   }
@@ -23,4 +22,33 @@ btn.addEventListener('click', () => {
   }
 });
 
+const text = document.querySelector('#text-area');
+text.addEventListener('keypress', (e) => {
+  const label = document.querySelector('contCharacter');
+  const imputLength = text.value.length;
+  const maxCharacter = 500;
+  let restante = maxCharacter - imputLength;
+  if (imputLength >= maxCharacter) {
+    e.preventDefault();
+  } else {
+    label.innerHTML = restante;
+  }
+});
+
+function cont() {
+  const text = document.querySelector('#text-area');
+  text.addEventListener('keypress', (e) => {
+    const label = document.querySelector('contCharacter');
+    const imputLength = text.value.length;
+    const maxCharacter = 500;
+    let restante = maxCharacter - imputLength;
+    if (imputLength >= maxCharacter) {
+      e.preventDefault();
+    } else {
+      label.innerHTML = restante;
+    }
+  });
+}
+
+cont();
 habilitar();
